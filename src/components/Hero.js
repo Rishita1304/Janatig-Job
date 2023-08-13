@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="absolute top-[223px] md:left-[205px] left-[20px] w-[500px] md:w-[890px] h-[252px] text-5xl md:text-45xl text-darkslategray">
+    <div className="absolute top-[200px] md:left-[205px] left-[20px] w-[500px] md:w-[890px] h-[252px] text-5xl md:text-45xl text-darkslategray">
       <div className="absolute top-[0px] left-[0px] md:w-[791px] w-[300px] h-[252px]">
         <b className="absolute top-[0px] left-[0px]">We’d love to help</b>
         <b className="absolute top-[40px] md:top-[88px] left-[calc(50%_-_25%)] md:left-[250px]">Solve Your</b>
