@@ -1,5 +1,6 @@
 
 import Banner from "../components/Banner";
+import Brands from "../components/Brands";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -9,6 +10,7 @@ const LandingPage = () => {
       <Navbar/>
       <Hero/>
       <Banner/>
+      <Brands/>
     </div>
   );
 };
