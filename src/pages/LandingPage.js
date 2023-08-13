@@ -2,6 +2,7 @@
 import Apply from "../components/Apply";
 import Banner from "../components/Banner";
 import Brands from "../components/Brands";
+import Choose from "../components/Choose";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Works from "../components/Works";
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Brands/>
       <Works/>
       <Apply/>
+      <Choose/>
     </div>
   );
 };

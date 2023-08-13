@@ -1,8 +1,8 @@
 const Navbar = () => {
     return (
-        <div className="absolute flex top-[47px] left-[calc(50%_-_250px)] md:left-[calc(50%_-_330px)] rounded-11xl bg-white w-[500px] md:w-[680px] justify-center h-[80px] text-base text-white">
+        <div className="absolute flex top-[47px] left-0 md:left-[calc(50%_-_330px)] rounded-11xl bg-white w-[500px] md:w-[680px] justify-center h-[80px] text-base text-white">
 
-        <div className="absolute top-[calc(50%_-_27.42px)] left-[calc(50%_-_200px)] md:left-[calc(50%_-_318.5px)] w-[400px] md:w-[636px] flex flex-row items-center justify-between">
+        <div className="absolute top-[calc(50%_-_27.42px)] left-[5px] md:left-[calc(50%_-_318.5px)] w-[400px] md:w-[636px] flex flex-row items-center justify-between">
           <img
             className="cursor-pointer relative md:w-[57.13px] w-[50px] h-[55.83px] object-cover"
             alt=""
