@@ -1,4 +1,5 @@
 
+import Apply from "../components/Apply";
 import Banner from "../components/Banner";
 import Brands from "../components/Brands";
 import Hero from "../components/Hero";
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <Banner/>
       <Brands/>
       <Works/>
+      <Apply/>
     </div>
   );
 };
