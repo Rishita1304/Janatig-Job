@@ -1,12 +1,18 @@
-import { useTypewriter } from "react-simple-typewriter";
+import React from "react";
+import TextTransition, { presets } from 'react-text-transition';
+
+const TEXTS = ['Outreach', 'Marketing'];
 
 const Hero = () => {
-  const [text]= useTypewriter({
-    words: ['Outreach','Marketing'],
-    loop: {},
-    typeSpeed: 10,
-    deleteSpeed: 50
-  });
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000, 
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
     <div className="absolute top-[200px] md:left-[205px] left-[10px] w-[500px] md:w-[890px] h-[252px] text-5xl md:text-45xl text-darkslategray">
 
@@ -16,7 +22,7 @@ const Hero = () => {
 
         <b className="absolute top-[40px] md:top-[88px] left-[calc(50%_-_25%)] md:left-[250px]">Solve Your</b>
 
-        <b className="absolute top-[80px] left-[calc(50%_-_35%)] md:top-[176px] md:left-[110px]"> <span> {text}</span> Problems</b>
+        <b className="absolute top-[80px] left-[calc(50%_-_35%)] md:top-[176px] md:left-[100px] flex gap-x-2 md:gap-x-4">  <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>Problems</b>
 
       </div>
 
