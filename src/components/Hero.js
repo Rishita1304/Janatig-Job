@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute top-[20px]  md:top-[76px] md:left-[649px] left-[200px] md:text-base text-[12px] text-dimgray-300 text-justify flex items-center w-[180px] md:w-[241px]">
-        {`We know that you care business as much as we do, and we're committed to helping you grow `}
+        {`We know that you care we do, and we're committed to helping you grow `}
         </div>
     </div>
   );
