@@ -20,7 +20,7 @@ const Choose = () => {
           <div className="flex flex-col items-start justify-start gap-[10px] text-21xl text-darkslategray">
             <div className="relative">Premium quality</div>
             <div className="relative text-5xl flex items-center w-[320px] md:w-[354px]">
-              Get your ads
+              Get
               
             </div>
           </div>
