@@ -21,7 +21,7 @@ const Choose = () => {
             <div className="relative">Premium quality</div>
             <div className="relative text-5xl flex items-center w-[320px] md:w-[354px]">
               Get your ads run by professionals and revise until you're 100%
-              satisfied
+              
             </div>
           </div>
         </div>
