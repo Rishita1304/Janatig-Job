@@ -24,7 +24,7 @@ const Hero = () => {
 
       <div className="absolute top-[0px] left-[0px] md:w-[791px] w-[300px] h-[252px]">
         <b className="absolute top-[0px] font-kamerik-105 left-[0px]">We’d love to help</b>
-        <b className="absolute top-[40px] md:top-[88px] left-[calc(50%_-_25%)] md:left-[250px]">Solve Your</b>
+        <b className="absolute top-[40px] md:top-[88px] left-[calc(50%_-_25%)] md:left-[250px]"> Your</b>
         <b className="absolute top-[80px] left-[calc(50%_-_35%)] md:top-[176px] md:left-[100px] flex gap-x-2 md:gap-x-4">  <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>Problems</b>
       </div>
 
