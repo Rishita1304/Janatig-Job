@@ -44,7 +44,7 @@ const Apply = () => {
         <div className="flex flex-col items-start justify-start gap-[10px] md:gap-[16px] text-darkslategray">
           <b className="relative">review</b>
           <b className="relative  md:text-base text-[10px] flex text-dimgray-300 items-center w-[100px] md:w-[265px]">
-            We’ll review your request
+            We’ll review your request and get back 
             on average.
           </b>
         </div>
