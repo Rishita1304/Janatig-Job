@@ -45,7 +45,7 @@ const Apply = () => {
           <b className="relative">review</b>
           <b className="relative  md:text-base text-[10px] flex text-dimgray-300 items-center w-[100px] md:w-[265px]">
             We’ll review your request and get back to you in 2-3 business days
-
+            on average.
           </b>
         </div>
       </div>
